@@ -9,7 +9,7 @@ const FooterWrapper = styled(Grid, {
   component: 'footer',
   container: true,
   spacing: 16,
-  fontSize: '0.75em',
+  fontSize: '0.8em',
 })(theme => ({
   background: theme.palette.background.default,
   padding: `${theme.spacing.unit * 4}px 0`,
