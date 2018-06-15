@@ -14,8 +14,8 @@ const Thanks = ({ data }) => {
   return (
     <Section>
       <Grid item xs={12} sm={8}>
-        <Helmet title="Thanks" />
-        <Typography variant="display1">Gracias &#xA75E;</Typography>
+        <Helmet title="Gracias" />
+        <Typography variant="display1">Gracias</Typography>
         <Typography component={Markdown} source={content} escapeHtml={false} />
       </Grid>
     </Section>

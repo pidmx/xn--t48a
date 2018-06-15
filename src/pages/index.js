@@ -23,7 +23,7 @@ const Home = ({ data }) => {
   return (
     <Section>
       <Grid item xs={12} sm={8}>
-        <Helmet title="Home" />
+        <Helmet title="Inicio" />
         <Typography variant="display1">Inicio</Typography>
         <Typography component={Markdown} source={content} escapeHtml={false} />
         {/* <Button component={Link} to="/about" variant="stroked">

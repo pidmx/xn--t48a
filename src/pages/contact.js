@@ -20,30 +20,25 @@ const Contact = ({ data }) => {
   return (
     <Section>
       <Grid item xs={12} sm={8}>
-        <Helmet title="Contact" />
+        <Helmet title="Contacto" />
         <Typography variant="display1">Contacto</Typography>
         {/* <Typography component={Markdown} source={content} escapeHtml={false} /> */}
         <Typography>
         <form name="contact" netlify-honeypot="full-name" action="/thanks" netlify>
           <p class="honey">
-            <input name="path" value="{{ page.url }}" />
             <label>Your full name: <input name="full-name" /></label>
           </p>
           <p>
-            <label>Su Nombre: <input type="text" name="name" /></label>   
+            <input placeholder="Nombre" type="text" name="name" required />
           </p>
           <p>
-            <label>Su Email: <input type="email" name="email" /></label>
+            <input placeholder="Email" type="email" name="email" required />
+            <span class="validation-text">Ingrese una dirección de email válida.</span>
           </p>
-{/*           <p>
-            <label>Your Role: <select name="role[]" multiple>
-              <option value="leader">Leader</option>
-              <option value="follower">Follower</option>
-            </select></label>
-          </p> */}
           <p>
-            <label>Mensaje: <textarea name="message"></textarea></label>
+            <textarea placeholder="Mensaje" rows="4" name="message" required></textarea>
           </p>
+          <div data-netlify-recaptcha></div>
           <p>
             <Button type="submit" variant="stroked">Enviar</Button>
           </p>

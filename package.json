@@ -1,8 +1,8 @@
 {
-  "name": "vdiagonal",
-  "description": "Sitio web vdiagonal",
+  "name": "ꝟ.com",
+  "description": "Sitio web ꝟ.com",
   "version": "0.0.21",
-  "author": "René Valdez <reneisrael@pid.mx>",
+  "author": "PidMX <ventas@pid.mx>",
   "dependencies": {
     "apollo-cache-inmemory": "1.1.12",
     "apollo-client": "2.2.8",
@@ -59,10 +59,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielmahon/gatsby-starter-procyon.git"
+    "url": "git+https://github.com/pidmx/xn--t48a.git"
   },
   "bugs": {
-    "url": "https://github.com/danielmahon/gatsby-starter-procyon/issues"
+    "url": "https://github.com/pidmx/xn--t48a/issues"
   },
-  "homepage": "https://github.com/danielmahon/gatsby-starter-procyon#readme"
+  "homepage": "https://github.com/pidmx/xn--t48a#readme"
 }

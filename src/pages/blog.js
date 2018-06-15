@@ -45,7 +45,7 @@ const IndexPage = ({ data }) => {
   return (
     <Section>
       <Grid item xs={12} sm={8}>
-        <Helmet title="Blog" />
+        <Helmet title="Noticias" />
         <Typography variant="display1">Noticias</Typography>
         <Typography>
           

@@ -4,10 +4,10 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: 'VDiagonal',
-    shortName: 'VDiagonal',
+    title: 'ꝟ.com',
+    shortName: 'ꝟ.com',
     description:
-      'Sitio web vdiagonal',
+      'Sitio web ꝟ.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
