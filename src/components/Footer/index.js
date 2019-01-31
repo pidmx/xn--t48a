@@ -70,6 +70,7 @@ class Footer extends Component {
           </Caption>
         </Left>
         <Middle item xs={12} sm={2}>
+          <div data-pro-badge-shopper-uuid=da1cb826-e5c4-4a2e-b7a9-f3ff6d721467 data-pro-badge-mode=light style="width:200px"></div> <script defer src="https://pro.godaddy.com/static/js/badge.js"></script>
           <Link to="/">
             <FooterLogo src={logoImage} alt={site.siteMetadata.title} />
           </Link>
@@ -91,3 +92,5 @@ class Footer extends Component {
 }
 
 export default Footer;
+
+
